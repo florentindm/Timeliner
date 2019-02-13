@@ -1,0 +1,12 @@
+version: 1.0.0
+files:
+  - url: Timeliner-1.0.0-mac.zip
+    sha512: Az5E6M8iBvGP/NTcMTdUENJLiP8pEqaMqhW9bJT32+mNvuBf0ACHHRRwetfnMU39+1BgjyBNsW2Y5V3hcFzbZA==
+    size: 61780055
+    blockMapSize: 65223
+  - url: Timeliner-1.0.0.dmg
+    sha512: oXNvoAMBd5SXDoWuENqnVql6JUdQB4UTFZPVuYoErJk9tE+IzD41tKf16GOkRBJfk1lk/wFLdSunKeiSGer/4w==
+    size: 63221980
+path: Timeliner-1.0.0-mac.zip
+sha512: Az5E6M8iBvGP/NTcMTdUENJLiP8pEqaMqhW9bJT32+mNvuBf0ACHHRRwetfnMU39+1BgjyBNsW2Y5V3hcFzbZA==
+releaseDate: '2019-01-03T03:11:39.853Z'

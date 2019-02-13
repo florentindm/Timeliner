@@ -1,0 +1,60 @@
+{
+  "name": "Timeliner",
+  "version": "1.0.0",
+  "description": "An application to create animations with Javascript",
+  "main": "main.js",
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Florentin de Moffarts",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-builder": "^20.38.4"
+  },
+  "dependencies": {
+    "electron-screenshot-app": "^4.0.3",
+    "electron-viewport": "^1.0.1",
+    "fs": "0.0.1-security",
+    "jimp": "^0.6.0",
+    "sharp": "^0.21.1",
+    "style-parser": "^1.1.1"
+  },
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron ./app",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "com.fasten.timeliner",
+    "files": [
+        "index.html",
+        "main.js",
+        "timeliner.js",
+        "menu.js",
+        "src/loop.js",
+        "src/test.js",
+        "src/libs.js"
+    ],
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    }
+  }
+}
